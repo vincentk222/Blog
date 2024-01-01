@@ -1,5 +1,5 @@
-# Docker remote access for Docker daemon
-## remote access for Docker daemon
+# Docker configuration
+## Remote access for Docker daemon
 
 ```sh
 sudo systemctl edit docker.service
