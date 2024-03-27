@@ -1,4 +1,13 @@
-# Docker configuration
+# Installation
+## wifi
+
+```sh
+curl -sSL -o wifi.sh https://raw.githubusercontent.com/vincentk222/Blog/main/script/wifi.sh
+chmod +x wifi.sh
+sudo ./wifi.sh
+```
+
+Add  the following lines# Docker configuration
 ## Remote access for Docker daemon
 
 ```sh
