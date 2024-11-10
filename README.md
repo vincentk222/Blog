@@ -37,7 +37,10 @@ sudo apt install net-tools
 sudo netstat -lntp | grep dockerd
 ```
 
-{% include_relative script/wifi.sh %}
+
+```bash
+    {% include_relative script/wifi.sh %}
+```
 
 
 
