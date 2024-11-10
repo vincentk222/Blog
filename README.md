@@ -6,17 +6,11 @@ curl -sSL -o wifi.sh https://raw.githubusercontent.com/vincentk222/Blog/main/scr
 chmod +x wifi.sh
 sudo ./wifi.sh
 ```
-
-<details wifi.sh>
-<summary>wifi.sh</summary>
-
 Pour voir le contenu du script, cliquez [ici](https://raw.githubusercontent.com/vincentk222/Blog/main/script/wifi.sh).
 
 ```bash
     {% include_relative script/wifi.sh %}
 ```
-
-</details>
 
 ## Remote access for Docker daemon
 
