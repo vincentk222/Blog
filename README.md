@@ -12,7 +12,6 @@ sudo ./wifi.sh
 
 Pour voir le contenu du script, cliquez [ici](https://raw.githubusercontent.com/vincentk222/Blog/main/script/wifi.sh).
 
-{% include_relative script/wifi.sh %}
 </details>
 
 ## Remote access for Docker daemon
@@ -38,6 +37,7 @@ sudo apt install net-tools
 sudo netstat -lntp | grep dockerd
 ```
 
+{% include_relative script/wifi.sh %}
 
 
 
