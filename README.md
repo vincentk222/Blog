@@ -1,5 +1,5 @@
 # Installation
-## wifi
+## Wifi
 
 ```sh
 curl -sSL -o wifi.sh https://raw.githubusercontent.com/vincentk222/Blog/main/script/wifi.sh
@@ -7,9 +7,15 @@ chmod +x wifi.sh
 sudo ./wifi.sh
 ```
 
-Add  the following lines# Docker configuration
-## Remote access for Docker daemon
+<details wifi.sh>
+<summary>wifi.sh</summary>
 
+Pour voir le contenu du script, cliquez [ici](https://raw.githubusercontent.com/vincentk222/Blog/main/script/wifi.sh).
+
+{% include_relative script/wifi.sh %}
+</details>
+
+## Docker
 ```sh
 sudo systemctl edit docker.service
 ```
@@ -29,3 +35,11 @@ sudo systemctl restart docker.service
 sudo apt install net-tools
 sudo netstat -lntp | grep dockerd
 ```
+
+
+
+
+
+
+
+
