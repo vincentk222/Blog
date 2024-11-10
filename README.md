@@ -15,7 +15,9 @@ Pour voir le contenu du script, cliquez [ici](https://raw.githubusercontent.com/
 {% include_relative script/wifi.sh %}
 </details>
 
-## Docker
+## Remote access for Docker daemon
+
+ 
 ```sh
 sudo systemctl edit docker.service
 ```
